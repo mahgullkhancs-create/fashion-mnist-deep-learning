@@ -91,3 +91,17 @@ The complete implementation, experiments, outputs and analysis are available in:
 The notebook can be run using Google Colab or a local Jupyter environment with the required Python libraries installed.
 
 Fashion-MNIST is loaded directly through TensorFlow/Keras, so no separate dataset download is required.
+
+## Model Evaluation Results
+
+### Final Model Architecture
+
+The final neural network architecture used for the Fashion-MNIST classification task is shown below.
+
+![Final Model Architecture](results/model.png)
+
+### Confusion Matrix
+
+The confusion matrix below shows the classification performance of the final model across the 10 Fashion-MNIST classes.
+
+![Confusion Matrix](results/confusion_matrix.png)
